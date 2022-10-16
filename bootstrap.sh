@@ -14,7 +14,7 @@
 
 echo Installing git ...
 # apt-get -q -q update
-sudo apt-get -q -q install -y git < /dev/null
+sudo apt install git -y
 echo git installed ...
 
 echo Downloading Yiimp Server Installer v1.0. . .
