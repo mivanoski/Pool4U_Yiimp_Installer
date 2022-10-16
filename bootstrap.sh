@@ -12,10 +12,11 @@
 
 # Clone the Yiimp Server repository if it doesn't exist.
 
-echo Installing git ...
+#echo Installing git ...
 # apt-get -q -q update
+# sudo apt install git -y
+#echo git installed ...
 sudo apt install git -y
-echo git installed ...
 
 echo Downloading Yiimp Server Installer v1.0. . .
 git clone https://github.com/mivanoski/Pool4U_Yiimp_Setup "$HOME"/yiimpserver/install < /dev/null 2> /dev/null
