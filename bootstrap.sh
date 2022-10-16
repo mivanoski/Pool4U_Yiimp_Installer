@@ -12,9 +12,9 @@
 
 # Clone the Yiimp Server repository if it doesn't exist.
 
-echo Installing git . . .
-apt-get -q -q update
-apt-get -q -q install -y git < /dev/null
+echo Installing git ...
+# apt-get -q -q update
+sudo apt-get -q -q install -y git < /dev/null
 echo git installed ...
 
 echo Downloading Yiimp Server Installer v1.0. . .
