@@ -24,11 +24,17 @@ All in one installer for your yiimp server.
 
 Installation:
 
-Requires a fresh Ubuntu 16.04 or Ubuntu 18.04 installation.
+Requires a fresh Ubuntu 18.04 LTS installation.
 
 ```
 curl https://raw.githubusercontent.com/mivanoski/Pool4U_Yiimp_Installer/master/bootstrap.sh | bash
 ```
+
+After the entire installation, it is mandatory to execute the command
+```
+sudo update-alternatives --config php
+```
+and select the appropriate number for php7.3
 
 
 ## ▶️ Usage
@@ -124,18 +130,18 @@ The following two tables show you the perfered server setup for the multi-server
 
 Role | OS Version | Recommended Ram
 :--|:--|:-:
-Web Server | Ubuntu 16.04 or Ubuntu 18.04 | 2GB
-DB & Stratum Server | Ubuntu 16.04 or Ubuntu 18.04 | 16GB
-Daemon Server | Ubuntu 16.04 or Ubuntu 18.04 | 8GB+
+Web Server | Ubuntu 18.04 | 2GB
+DB & Stratum Server | Ubuntu 18.04 | 16GB
+Daemon Server | Ubuntu 18.04 | 8GB+
 
  or
 
 Role | OS Version | Recommended Ram
 :--|:--|:-:
-Web Server | Ubuntu 16.04 or Ubuntu 18.04 | 2GB
-DB Server | Ubuntu 16.04 or Ubuntu 18.04 | 2GB
-Stratum Server | Ubuntu 16.04 or Ubuntu 18.04 | 8GB
-Daemon Server | Ubuntu 16.04 or Ubuntu 18.04 | 8GB+
+Web Server | Ubuntu 18.04 | 2GB
+DB Server | Ubuntu 18.04 | 2GB
+Stratum Server | Ubuntu 18.04 | 8GB
+Daemon Server | Ubuntu 18.04 | 8GB+
 
 It is also highly recommended to use a provider that offers private IP's between your servers. If your provider only offers public IP's you must install Wireguard (Installer provided). This will setup a secure VPN connection between your servers for the backend communication.
 
