@@ -30,11 +30,15 @@ Requires a fresh Ubuntu 18.04 LTS installation.
 curl https://raw.githubusercontent.com/mivanoski/Pool4U_Yiimp_Installer/master/bootstrap.sh | bash
 ```
 
-After the entire installation, it is mandatory to execute the command
+After the entire installation, it is mandatory to execute the commands
 ```
 sudo update-alternatives --config php
 ```
 and select the appropriate number for php7.3
+```
+sudo apt install php7.3-memcache -y
+```
+
 
 
 ## ▶️ Usage
