@@ -15,6 +15,19 @@ All in one installer for your yiimp server.
 - [This is opened as a public repo - all features are not final!](#this-is-opened-as-a-public-repo---all-features-are-not-final)
 - [▶️ Table Of Contents](#️-table-of-contents)
 - [▶️ Installation](#️-installation)
+- [▶️ Usage](#️-usage)
+- [YiiMP Single Server Install](#yiimp-single-server-install)
+    - [A server reboot is REQUIRED after the installer is completed to finalize the installation process!](#a-server-reboot-is-required-after-the-installer-is-completed-to-finalize-the-installation-process)
+    - [On first reboot it may take up to 10 minutes before the cron screens auto-start. After waiting ten minutes type:](#on-first-reboot-it-may-take-up-to-10-minutes-before-the-cron-screens-auto-start-after-waiting-ten-minutes-type)
+    - [To help make your server more secure we have changed the install locations and directory structure of YiiMP as follows:](#to-help-make-your-server-more-secure-we-have-changed-the-install-locations-and-directory-structure-of-yiimp-as-follows)
+    - [▶️ Commands](#️-commands)
+- [▶️ YiiMP Multi-Server Install](#️-yiimp-multi-server-install)
+    - [If installing wireguard do not modify the default private IP's that are provide. Installation will fail!](#if-installing-wireguard-do-not-modify-the-default-private-ips-that-are-provide-installation-will-fail)
+    - [During the setup process you will be prompted to enter the user name and password for each of your servers. This is required for the installer to be able to SSH in to each server to perform the installation tasks on that server.](#during-the-setup-process-you-will-be-prompted-to-enter-the-user-name-and-password-for-each-of-your-servers-this-is-required-for-the-installer-to-be-able-to-ssh-in-to-each-server-to-perform-the-installation-tasks-on-that-server)
+    - [A server reboot is REQUIRED after the installer is completed to finalize the installation process!](#a-server-reboot-is-required-after-the-installer-is-completed-to-finalize-the-installation-process-1)
+    - [On first reboot it may take up to 1 minute before the cron screens auto-start. After waiting one minute type:](#on-first-reboot-it-may-take-up-to-1-minute-before-the-cron-screens-auto-start-after-waiting-one-minute-type)
+    - [To help make your server more secure we have changed the install locations and directory structure of YiiMP as follows:](#to-help-make-your-server-more-secure-we-have-changed-the-install-locations-and-directory-structure-of-yiimp-as-follows-1)
+    - [🔗 Commands](#-commands)
 - [▶️ Credits](#️-credits)
 - [▶️ License](#️-license)
 - [▶️ Support](#️-support)
@@ -37,6 +50,7 @@ sudo update-alternatives --config php
 and select the appropriate number for php7.3
 ```
 sudo apt install php7.3-memcache -y
+```
 ```
 sudo reboot now
 ```
