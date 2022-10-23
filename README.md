@@ -11,13 +11,13 @@ All in one installer for your yiimp server.
 
 ## ▶️ Table Of Contents
 
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [YiiMP Single Server Install](#-yiimp-single-server-install)
-- [Commands](#-commands)
-- [YiiMP Multi-Server Install](#-yiimp-multi-server-install)
-- [Credits](#-credits)
-- [License](#-license)
+- [Pool4U`s YiiMP Server Installer !](#pool4us-yiimp-server-installer-)
+- [This is opened as a public repo - all features are not final!](#this-is-opened-as-a-public-repo---all-features-are-not-final)
+- [▶️ Table Of Contents](#️-table-of-contents)
+- [▶️ Installation](#️-installation)
+- [▶️ Credits](#️-credits)
+- [▶️ License](#️-license)
+- [▶️ Support](#️-support)
 
 
 ## ▶️ Installation
@@ -38,7 +38,8 @@ and select the appropriate number for php7.3
 ```
 sudo apt install php7.3-memcache -y
 ```
-
+sudo reboot now
+```
 
 
 ## ▶️ Usage
