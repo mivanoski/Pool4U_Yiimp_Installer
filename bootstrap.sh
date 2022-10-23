@@ -24,7 +24,5 @@ echo Downloading Yiimp Server Installer v1.0. . .
 git clone https://github.com/mivanoski/Pool4U_Yiimp_Setup "$HOME"/yiimpserver/install < /dev/null 2> /dev/null
 echo
 
-nano $HOME/yiimpserver/install/settings.conf
-
 # Start setup script.
 bash $HOME/yiimpserver/install/start.sh
