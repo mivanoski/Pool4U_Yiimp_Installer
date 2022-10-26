@@ -16,10 +16,13 @@
 # apt-get -q -q update
 # sudo apt install git -y
 #echo git installed ...
-sudo apt install git -y
-sudo apt install landscape-common -y
-sudo apt install nano -y
-sudo apt install dialog -y
+hide_output sudo apt-get purge apache2 -y 
+hide_output sudo apt-get purge apache2-* -y 
+hide_output sudo apt-get --purge autoremove -y
+hide_output sudo apt install git -y
+hide_output sudo apt install landscape-common -y
+hide_output sudo apt install nano -y
+hide_output sudo apt install dialog -y
 
 
 echo Downloading Yiimp Server Installer v1.0. . .
